@@ -19,7 +19,7 @@
 
       // Constructing the query URL
       const apiUrl =
-        "http://ec2-3-26-201-12.ap-southeast-2.compute.amazonaws.com:8500/send_content";
+        "https://api-email-service.techitzy.com/send_content";
       const queryParams = `query_content=${encodeURIComponent(
         formattedMessage
       )}&subject=${encodeURIComponent(subject)}&email_id=${encodeURIComponent(
